@@ -11,17 +11,20 @@
 
 
 "Hello World".include?("Hello")
-
+#The .include? method checks to see if the string "Hello World" has the string "Hello" in it 
+#and returns true or false.
 
 "Hello World".end_with?("Hello")
-
-
-"Hello World".end_with?("rld")
-
-
+#The .end_with? method checks to see if the string "Hello World" has the string "Hello"
+#at the end of it and returns a true or false.
+ "Hello World".end_with?("rld")
+#This .end_with? method checks to see if the string "Hello World" has the string "rld"
+#at the end of it and returns a true or false.
 12.even?
+#The .even method determines if 12 is even or odd.
 
-
-18.next
+p 18.next
+#The .next method determines the next number after 18 and 
+#returns its value.
 
 
